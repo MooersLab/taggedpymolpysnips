@@ -1,7 +1,7 @@
 # taggedpymolpysnips: Tagged templates for running PyMOL from JupyterLab
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-![Version](https://img.shields.io/static/v1?label=rstudiopymolpysnips&message=0.1&color=brightcolor)
+![Version](https://img.shields.io/static/v1?label=taggedpymolpysnips&message=0.1&color=brightcolor)
 
 For details on installing the taggedpymolpysnips library for **JupyterLab**, go to the [GitHub Page](https://mooerslab.github.io/taggedpymolpysnips/) associated with this project.
 For a list of the snippets and their descriptions, also go to the [GitHub Page](https://MooersLab.github.io/taggedpymolpysnips/) associated with this project.
