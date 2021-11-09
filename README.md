@@ -33,11 +33,8 @@ The snippet will appear in a list of autosuggestions after entering the first se
 Note that entering <b>ao</b> was not sufficient to bring up the ao snippet. 
 I had to enter <b>aod</b> to bring up the ao snippet in the list.</p>
 
-<p align="center"><img src="gifs/aoSnippetHairpin.gif"></p>
+<p align="center"><img src="gifs/accessingsnippets.gif"></p>
 
-<p>The animation below shows the use of Knitr to convert the Rmarkdown document into a PDF file.</p>
-
-<p align="center"><img src="gifs/knitrHairpin.gif"></p>
 
 
 The result of applying a variant of the above code to a 27-nucleotide RNA hairpin is shown below.
