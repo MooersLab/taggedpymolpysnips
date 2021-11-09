@@ -3,8 +3,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![Version](https://img.shields.io/static/v1?label=taggedpymolpysnips&message=0.1&color=brightcolor)
 
-For details on installing the taggedpymolpysnips library for **JupyterLab**, go to the [GitHub Page](https://mooerslab.github.io/taggedpymolpysnips/) associated with this project.
-For a list of the snippets and their descriptions, also go to the [GitHub Page](https://MooersLab.github.io/taggedpymolpysnips/) associated with this project.
+For a list of the snippets and their descriptions, also go to the [GitHub Page](https://mooerslab.github.io/pymolsnips/).
+
+The text below while updated shortly.
 
 <a id="table-of-contents"><h2>Table of Contents</h2></a>
 
