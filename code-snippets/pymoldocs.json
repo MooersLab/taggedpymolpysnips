@@ -1,0 +1,14 @@
+{
+  "display_name": "pymoldocs",
+  "metadata": {
+    "language": "python",
+    "description": "Return to the command history window the docstrings for all of the functions in a module.",
+    "tags": [
+    "pymol","pymoldocs","help","docstrings","pymol module"
+    ],
+    "code": [
+      "[help(i) for i in dir(pymol)];"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

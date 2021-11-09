@@ -1,0 +1,14 @@
+{
+  "display_name": "listSettings2",
+  "metadata": {
+    "language": "python",
+    "description": "Print to the screen the settings and their current parameter values.",
+    "tags": [
+    "pymol","listSettings2","print","parameter settings"
+    ],
+    "code": [
+      "list = setting.get_name_list();[print('%s => %s' % (name, setting.get_setting_text(name))) for name in list];"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

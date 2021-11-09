@@ -1,0 +1,14 @@
+{
+  "display_name": "ellipcol",
+  "metadata": {
+    "language": "python",
+    "description": "Set color of thernal ellipsoids. The PDB must have anisotopic temperature factors. See https://pymolwiki.org/index.php/Color_Values for the PyMOL colors.",
+    "tags": [
+    "pymol","ellipcol","molecular representation","ellipsoid color"
+    ],
+    "code": [
+      "cmd.do('set ellipsoid_color, red;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

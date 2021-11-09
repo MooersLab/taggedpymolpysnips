@@ -1,0 +1,14 @@
+{
+  "display_name": "antialias",
+  "metadata": {
+    "language": "python",
+    "description": "Set antialias to on to get smoother edges.",
+    "tags": [
+    "pymol","antialias","pymolrc","set antialias","get smooth edges"
+    ],
+    "code": [
+      "cmd.do('set antialias, 1;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

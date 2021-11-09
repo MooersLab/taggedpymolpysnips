@@ -1,0 +1,20 @@
+{
+  "display_name": "unitCellEdgesColorBlack",
+  "metadata": {
+    "language": "python",
+    "description": "Color unit cell edges black. The settings for controlling the unit cell color are hard to find.",
+    "tags": [
+    "pymol","unitCellEdgesColorBlack","unit cell edges","color black"
+    ],
+    "code": [
+      "# show the unit cell;",
+      "show cell;",
+      "color black, 1lw9;",
+      "# color by atom with carbons colored green,",
+      "util.cbag;",
+      "set cgo_line_width, 2.5;",
+      "png  testCell3.png, 1600,1600;600;0"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

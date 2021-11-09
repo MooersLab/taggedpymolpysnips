@@ -1,0 +1,17 @@
+{
+  "display_name": "pearl",
+  "metadata": {
+    "language": "python",
+    "description": "The pearl effect is made with two spheres with the outer sphere being transparent.",
+    "tags": [
+    "pymol","pearl","molecular representation","pearl effect"
+    ],
+    "code": [
+      "cmd.do('create sodium2, sodium1;')",
+      "cmd.do('set sphere_transparency, 0.4, sodium2;')",
+      "cmd.do('set sphere_scale, 1.05, sodium2;')",
+      "cmd.do('ray;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

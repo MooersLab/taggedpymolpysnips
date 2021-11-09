@@ -1,0 +1,14 @@
+{
+  "display_name": "nmroffpy",
+  "metadata": {
+    "language": "python",
+    "description": "Hide all but the first model in a nmr structure.",
+    "tags": [
+    "pymol","nmroffpy","hide","all but firstmodel in NMR structure"
+    ],
+    "code": [
+      "cmd.do('set all_states, off')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

@@ -1,0 +1,14 @@
+{
+  "display_name": "fetchFoFc",
+  "metadata": {
+    "language": "python",
+    "description": "Fetch fofc map from the PDB.",
+    "tags": [
+    "pymol","fetchFoFc","electron density","fetch fofc"
+    ],
+    "code": [
+      "cmd.do('fetch 3nd4,  3nd4_fofc, type=fofc, async=0;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

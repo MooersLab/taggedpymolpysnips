@@ -1,0 +1,14 @@
+{
+  "display_name": "undoSelection",
+  "metadata": {
+    "language": "python",
+    "description": "Undo a selection.",
+    "tags": [
+    "pymol","undoSelection","undo a selection"
+    ],
+    "code": [
+      "cmd.do('disable sele; ')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

@@ -1,0 +1,16 @@
+{
+  "display_name": "loadAndAlignManyFiles2",
+  "metadata": {
+    "language": "python",
+    "description": "To align all of the loaded RNA structures in all possible combinations by their C1' carbon atoms.",
+    "tags": [
+    "pymol","loadAndAlignManyFiles2","load","aligning muliple files"
+    ],
+    "code": [
+      "cmd.do('#  Yes, this construct is a list comprehension inside a list comprehension!;')",
+      "cmd.do('run ~/Scripts/optAlignRNA.py;')",
+      "cmd.do('[[optAlignRNA(x, y) for x in cmd.get_names()] for y in cmd.get_names()];')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

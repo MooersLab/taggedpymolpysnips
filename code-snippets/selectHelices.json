@@ -1,0 +1,14 @@
+{
+  "display_name": "selectHelices",
+  "metadata": {
+    "language": "python",
+    "description": "Select atoms by alpha helices.",
+    "tags": [
+    "pymol","selectHelices","selection","select atoms","by alpha helices"
+    ],
+    "code": [
+      "cmd.do('select helices, ss h; ')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

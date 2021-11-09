@@ -1,0 +1,14 @@
+{
+  "display_name": "printDocpy",
+  "metadata": {
+    "language": "python",
+    "description": "Print document string of a function.",
+    "tags": [
+    "pymol","printDocpy","print document string"
+    ],
+    "code": [
+      "print(my_func.__doc__);"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

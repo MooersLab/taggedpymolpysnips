@@ -1,0 +1,14 @@
+{
+  "display_name": "rotate",
+  "metadata": {
+    "language": "python",
+    "description": "Rotate a selection about and axis by a given angle.",
+    "tags": [
+    "pymol","rotate","orientation","rotate about axis"
+    ],
+    "code": [
+      "cmd.do('rotate x, 45, pept;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

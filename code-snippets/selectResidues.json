@@ -1,0 +1,14 @@
+{
+  "display_name": "selectResidues",
+  "metadata": {
+    "language": "python",
+    "description": "Select residues by name.",
+    "tags": [
+    "pymol","selectResidues","selection","select residues"," by name"
+    ],
+    "code": [
+      "cmd.do('select aromatic, resn phe+tyr+trp;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

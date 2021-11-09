@@ -1,0 +1,14 @@
+{
+  "display_name": "renumResi",
+  "metadata": {
+    "language": "python",
+    "description": "Add or substract a residue number offset.",
+    "tags": [
+    "pymol","renumResi","residue number","offset"
+    ],
+    "code": [
+      "cmd.do('alter 3fa0, resi=str(int(resi)+100);sort;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

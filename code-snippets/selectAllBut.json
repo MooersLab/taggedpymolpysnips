@@ -1,0 +1,14 @@
+{
+  "display_name": "selectAllBut",
+  "metadata": {
+    "language": "python",
+    "description": "Select all nitrogen atom in a selelction except from lysine.",
+    "tags": [
+    "pymol","selectAllBut","selection","select all nitrogen atoms in a selection","except from lysine"
+    ],
+    "code": [
+      "cmd.do('select select1, elem N and chain A and not resn LYS;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

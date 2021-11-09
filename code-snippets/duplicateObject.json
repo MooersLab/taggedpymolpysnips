@@ -1,0 +1,14 @@
+{
+  "display_name": "duplicateObject",
+  "metadata": {
+    "language": "python",
+    "description": "Duplicate object. Create an object with the first argument using the selection which is the second argument.",
+    "tags": [
+    "pymol","duplicateObject","selection","duplicate object"
+    ],
+    "code": [
+      "cmd.do('create t4l, 1lw9;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

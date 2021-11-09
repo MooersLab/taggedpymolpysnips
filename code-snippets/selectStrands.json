@@ -1,0 +1,14 @@
+{
+  "display_name": "selectStrands",
+  "metadata": {
+    "language": "python",
+    "description": "Select atoms by beta strands.",
+    "tags": [
+    "pymol","selectStrands","selection","select atoms","by beta strands"
+    ],
+    "code": [
+      "cmd.do('select strands, ss s; ')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

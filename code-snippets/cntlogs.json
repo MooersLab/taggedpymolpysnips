@@ -1,0 +1,18 @@
+{
+  "display_name": "cntlogs",
+  "metadata": {
+    "language": "python",
+    "description": "Count number of *.log files in current directory.",
+    "tags": [
+    "pymol","cntlogs","count","current directory","log files"
+    ],
+    "code": [
+      "print('Count the number of log image files in current directory.');",
+      "print('Usage: cntlogs');",
+      "myPath = os.getcwd();",
+      "logCounter = len(glob.glob1(myPath,'*.log'));",
+      "print('Number of number of log image files in the current directory: ', logCounter);"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

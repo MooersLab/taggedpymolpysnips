@@ -1,0 +1,14 @@
+{
+  "display_name": "ligandSelect",
+  "metadata": {
+    "language": "python",
+    "description": "Make selection of ligand atoms.",
+    "tags": [
+    "pymol","ligandSelect","selection","ligand"
+    ],
+    "code": [
+      "cmd.do('select ligand, organic;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

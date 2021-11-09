@@ -1,0 +1,14 @@
+{
+  "display_name": "cav",
+  "metadata": {
+    "language": "python",
+    "description": "Run the cav function from the pymolshortcuts.py file to show buried cavities and pockets as molecular surfaces.",
+    "tags": [
+    "pymol","cav","cav function","show buried cavities and pockets "
+    ],
+    "code": [
+      "cmd.do('cav')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

@@ -1,0 +1,14 @@
+{
+  "display_name": "selectAtomsAround",
+  "metadata": {
+    "language": "python",
+    "description": "Select atoms within a radius around a ligand.",
+    "tags": [
+    "pymol","selectAtomsAround","selection","select atoms","around a ligand"
+    ],
+    "code": [
+      "cmd.do('select nearby, resn drug around 5;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

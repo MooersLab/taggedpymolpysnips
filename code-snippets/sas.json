@@ -1,0 +1,14 @@
+{
+  "display_name": "sas",
+  "metadata": {
+    "language": "python",
+    "description": "Show the solvent excluded surface.",
+    "tags": [
+    "pymol","sas","molecular representation","ambient occlussion"
+    ],
+    "code": [
+      "cmd.do('set surface_solvent, on')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

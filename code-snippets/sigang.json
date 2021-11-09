@@ -1,0 +1,14 @@
+{
+  "display_name": "sigang",
+  "metadata": {
+    "language": "python",
+    "description": "Set angle labels to display 2 decimals places.",
+    "tags": [
+    "pymol","sigang","set angle labels"
+    ],
+    "code": [
+      "cmd.do('set label_angle_digits, 2;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

@@ -1,0 +1,16 @@
+{
+  "display_name": "pseudolabel",
+  "metadata": {
+    "language": "python",
+    "description": "Position label with pseudoatom.",
+    "tags": [
+    "pymol","pseudolabel","label","position with pseudoatom"
+    ],
+    "code": [
+      "cmd.do('pseudoatom forLabel;')",
+      "cmd.do('label forLabel, '%0';')",
+      "cmd.do('set label_color, red;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

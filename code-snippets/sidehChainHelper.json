@@ -1,0 +1,14 @@
+{
+  "display_name": "sidehChainHelper",
+  "metadata": {
+    "language": "python",
+    "description": "In cartoons, hide the backbone atoms of selected residues when showing then as sticks.",
+    "tags": [
+    "pymol","sidehChainHelper","molecular representation","hide the backbone atoms "
+    ],
+    "code": [
+      "cmd.do('set cartoon_side_chain_helper, on;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

@@ -1,0 +1,18 @@
+{
+  "display_name": "cntpdbs",
+  "metadata": {
+    "language": "python",
+    "description": "Count number of *.pdb files in current directory.",
+    "tags": [
+    "pymol","cntpdbs","count","current directory","pdb files"
+    ],
+    "code": [
+      "print('Count the number of pdb files in the current directory.')",
+      "print('Usage: cntpdb')",
+      "myPath = os.getcwd()",
+      "pdbCounter = len(glob.glob1(myPath,'*.pdb'))",
+      "print('Number of pdb files in the current directory: ', pdbCounter)"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

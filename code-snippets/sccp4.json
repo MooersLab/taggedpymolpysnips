@@ -1,0 +1,20 @@
+{
+  "display_name": "sccp4",
+  "metadata": {
+    "language": "python",
+    "description": "Save electron density map flle with timestamp.",
+    "tags": [
+    "pymol","sccp4","save ccp4 file","timestamp"
+    ],
+    "code": [
+      "cmd.do('python;')",
+      "cmd.do('import datetime;')",
+      "cmd.do('from pymol import cmd; ')",
+      "cmd.do('DT =datetime.datetime.now().strftime('yr%Ymo%mday%dhr%Hmin%M');')",
+      "cmd.do('s = str(DT); ')",
+      "cmd.do('cmd.save(stemName+s+'.ccp4'); ')",
+      "cmd.do('python end;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

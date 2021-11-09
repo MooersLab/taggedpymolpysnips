@@ -1,0 +1,15 @@
+{
+  "display_name": "sc111",
+  "metadata": {
+    "language": "python",
+    "description": "Display all symmetry mates in one unit cell. Uses supercell.py in $HOME/Scripts/PyMOLscripts/. Change to your path to supercell.py.",
+    "tags": [
+    "pymol","sc111","molecular representation","display symmetry mates","sc111"
+    ],
+    "code": [
+      "cmd.do('run $HOME/Scripts/PyMOLscripts/supercell.py;')",
+      "cmd.do('supercell 1, 1, 1, , orange,  supercell1, 1;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

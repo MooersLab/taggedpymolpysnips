@@ -1,0 +1,16 @@
+{
+  "display_name": "rmd",
+  "metadata": {
+    "language": "python",
+    "description": "Remove all measurement objects in the interal GUI.",
+    "tags": [
+    "pymol","rmd","delete","all measurements"
+    ],
+    "code": [
+      "cmd.do('delete measure*')",
+      "cmd.do('delete m*_*')",
+      "cmd.do('delete dist*')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

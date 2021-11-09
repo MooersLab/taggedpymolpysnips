@@ -1,0 +1,14 @@
+{
+  "display_name": "fasta",
+  "metadata": {
+    "language": "python",
+    "description": "Print Fasta from PDB file.",
+    "tags": [
+    "pymol","fasta","print sequence","print fasta from pdb file"
+    ],
+    "code": [
+      "cmd.do('print cmd.get_fastastr('all')')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

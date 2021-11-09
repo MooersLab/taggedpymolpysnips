@@ -1,0 +1,18 @@
+{
+  "display_name": "cntpses",
+  "metadata": {
+    "language": "python",
+    "description": "Count number of *.pse files in current directory.",
+    "tags": [
+    "pymol","cntpses","count","current directory","pse files"
+    ],
+    "code": [
+      "print('Count the number of *.pse (session) files in current directory.');",
+      "print('Usage: cntpses');",
+      "myPath = os.getcwd();",
+      "pseCounter = len(glob.glob1(myPath,'*.pse'));",
+      "print('Number of *.pse (session) files in the current directory: ', pseCounter);"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

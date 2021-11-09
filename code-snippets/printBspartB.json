@@ -1,0 +1,14 @@
+{
+  "display_name": "printBspartB",
+  "metadata": {
+    "language": "python",
+    "description": "Print B factors of part B of a residue.",
+    "tags": [
+    "pymol","printBspartB","analysis","print B-factors by residue","altloc part B"
+    ],
+    "code": [
+      "cmd.do('iterate resi 38 and altloc B, print resi, name, alt, b;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

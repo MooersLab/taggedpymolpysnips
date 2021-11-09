@@ -1,0 +1,15 @@
+{
+  "display_name": "hidealtloc",
+  "metadata": {
+    "language": "python",
+    "description": "Hide the partially occupied atoms with the part b alternate locator.",
+    "tags": [
+    "pymol","hidealtloc","alternate locators"
+    ],
+    "code": [
+      "cmd.do('select altconf, alt b  # select B alternative locators;')",
+      "cmd.do('hide everything, altconf  # hide alt B locators;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

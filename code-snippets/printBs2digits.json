@@ -1,0 +1,14 @@
+{
+  "display_name": "printBs2digits",
+  "metadata": {
+    "language": "python",
+    "description": "Print B--factors for a residue with the B-factors rounded off to two decimal places.",
+    "tags": [
+    "pymol","printBs2digits","analysis","print B-factors of part B"
+    ],
+    "code": [
+      "cmd.do('iterate (resi 133), print(name + ' %.2f' % b);')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

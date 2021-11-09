@@ -1,0 +1,14 @@
+{
+  "display_name": "printAtomNumbers",
+  "metadata": {
+    "language": "python",
+    "description": "Print the atom name and number of a residue.",
+    "tags": [
+    "pymol","printAtomNumbers","atom numbers","print by residue"
+    ],
+    "code": [
+      "cmd.do('iterate (resi 1), print(name + ' %i5' % ID);')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

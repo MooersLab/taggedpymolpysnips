@@ -1,0 +1,14 @@
+{
+  "display_name": "labelWatersHOH",
+  "metadata": {
+    "language": "python",
+    "description": "Label waters with HOH and their residue number.",
+    "tags": [
+    "pymol","labelWatersHOH","label","waters","HOH"
+    ],
+    "code": [
+      "cmd.do('label resn HOH ,'%s%s' % (resn,resi);')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

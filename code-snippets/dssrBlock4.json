@@ -1,0 +1,18 @@
+{
+  "display_name": "dssrBlock4",
+  "metadata": {
+    "language": "python",
+    "description": "DSSR block representation with custom coloring after loading the dssr_block.py script by Thomas Holder. The x3dna-dssr executable needs to be in the PATH.",
+    "tags": [
+    "pymol","dssrBlock4","RNA","DSSR cartoon","custom coloring"
+    ],
+    "code": [
+      "cmd.do('reinitialize;')",
+      "cmd.do('run /Users/blaine/.pymol/startup/dssr_block.py;')",
+      "cmd.do('fetch 1msy, async=0;')",
+      "cmd.do('set cartoon_nucleic_acid_color, orange;')",
+      "cmd.do('dssr_block block_color=N red | minor 0.9 | major yellow;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

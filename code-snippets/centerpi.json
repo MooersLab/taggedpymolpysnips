@@ -1,0 +1,15 @@
+{
+  "display_name": "centerpi",
+  "metadata": {
+    "language": "python",
+    "description": "Center pi. Edit the atoms selected for positioning the pseudoatom.",
+    "tags": [
+    "pymol","centerpi","label","placement"
+    ],
+    "code": [
+      "cmd.do('pseudoatom pi_cent,/3nd3/A/U`15/cg+cz;')",
+      "cmd.do('dist pi_cent////ps1, b/U`15/aaa;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

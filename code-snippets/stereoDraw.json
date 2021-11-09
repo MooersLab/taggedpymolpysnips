@@ -1,0 +1,18 @@
+{
+  "display_name": "stereoDraw",
+  "metadata": {
+    "language": "python",
+    "description": "Stereo draw.",
+    "tags": [
+    "pymol","stereoDraw","stereo","walleye","stereo draw"
+    ],
+    "code": [
+      "cmd.do('stereo walleye; ')",
+      "cmd.do('set ray_shadow, off; ')",
+      "cmd.do('#draw 3200,2000;')",
+      "cmd.do('draw 1600,1000; ')",
+      "cmd.do('png aaa.png;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

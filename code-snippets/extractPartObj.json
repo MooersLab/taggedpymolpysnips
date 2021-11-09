@@ -1,0 +1,14 @@
+{
+  "display_name": "extractPartObj",
+  "metadata": {
+    "language": "python",
+    "description": "Create a new object from part of an existing object.",
+    "tags": [
+    "pymol","extractPartObj","selection","create a new object"
+    ],
+    "code": [
+      "cmd.do('extract new_obj, chain A;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

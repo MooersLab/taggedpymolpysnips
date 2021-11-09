@@ -1,0 +1,14 @@
+{
+  "display_name": "yrb",
+  "metadata": {
+    "language": "python",
+    "description": "Run the yrb function from the pymolshortcuts.py file. ",
+    "tags": [
+    "pymol","yrb","color","color by biophysical propertities","yrb"
+    ],
+    "code": [
+      "cmd.do('yrb')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

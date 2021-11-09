@@ -1,0 +1,15 @@
+{
+  "display_name": "sc113",
+  "metadata": {
+    "language": "python",
+    "description": "Display all symmetry mates in three unit cels along c. Uses supercell.py in $HOME/Scripts/PyMOLscripts/.",
+    "tags": [
+    "pymol","sc113","molecular representation","unit cell display","sc113"
+    ],
+    "code": [
+      "cmd.do('run $HOME/Scripts/PyMOLscripts/supercell.py;')",
+      "cmd.do('supercell 1, 1, 3, ,  orange,  supercell1, 1;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

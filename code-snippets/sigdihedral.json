@@ -1,0 +1,14 @@
+{
+  "display_name": "sigdihedral",
+  "metadata": {
+    "language": "python",
+    "description": "Set dihedral labels to display 2 decimals places to the right of the decimal point.",
+    "tags": [
+    "pymol","sigdihedral","label format","2 decimals places"
+    ],
+    "code": [
+      "cmd.do('set label_dihedral_digits, 2;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

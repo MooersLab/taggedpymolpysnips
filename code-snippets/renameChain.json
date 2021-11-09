@@ -1,0 +1,15 @@
+{
+  "display_name": "renameChain",
+  "metadata": {
+    "language": "python",
+    "description": "Rename a chain. ",
+    "tags": [
+    "pymol","renameChain","chain","rename"
+    ],
+    "code": [
+      "cmd.do('alter 3fa0 and chain A, chain='C';')",
+      "cmd.do('sort;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

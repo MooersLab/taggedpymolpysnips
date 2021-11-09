@@ -1,0 +1,15 @@
+{
+  "display_name": "renumAtoms",
+  "metadata": {
+    "language": "python",
+    "description": "Add or substract a atom number offset.",
+    "tags": [
+    "pymol","renumAtoms","atom number","offset"
+    ],
+    "code": [
+      "cmd.do('alter {$1:3fa0, ID=ID+100;')",
+      "cmd.do('sort;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

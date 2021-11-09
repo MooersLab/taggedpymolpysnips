@@ -1,0 +1,14 @@
+{
+  "display_name": "PE25",
+  "metadata": {
+    "language": "python",
+    "description": "Run the PE25 function from the pymolshortcuts.py file to show the pearl effect with the inner sphere scaled by 0.25 of the van der Waals surface.",
+    "tags": [
+    "pymol","PE25","pearl effect","scale inner sphere by 0.25 "
+    ],
+    "code": [
+      "cmd.do('PE25')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

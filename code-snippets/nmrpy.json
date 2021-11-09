@@ -1,0 +1,14 @@
+{
+  "display_name": "nmrpy",
+  "metadata": {
+    "language": "python",
+    "description": "Show all models in a nmr structure.",
+    "tags": [
+    "pymol","nmrpy","show","all models in NMR structure"
+    ],
+    "code": [
+      "cmd.do('cmd.do('set all_states, on')')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

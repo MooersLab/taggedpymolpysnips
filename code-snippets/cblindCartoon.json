@@ -1,0 +1,17 @@
+{
+  "display_name": "cblindCartoon",
+  "metadata": {
+    "language": "python",
+    "description": "Color cartoon with colorblind friendly colors. Requires that the pymolshortcuts.py file is loaded. This has been applied to PDB-ID 7JU6. The protein is human RET kinase, and the drug is selpercatinib, a FDA approved drug for treating several cancers.",
+    "tags": [
+    "pymol","cblindCartoon","color cartoon","colorblind friendly colors"
+    ],
+    "code": [
+      "CB;",
+      "color cb_lightblue, ss h;",
+      "color cb_vermillion, ss s;",
+      "color lightorange, ss l+'';"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

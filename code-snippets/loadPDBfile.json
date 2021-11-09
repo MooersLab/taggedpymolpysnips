@@ -1,0 +1,14 @@
+{
+  "display_name": "loadPDBfile",
+  "metadata": {
+    "language": "python",
+    "description": "Load a pdb file in the current directory.",
+    "tags": [
+    "pymol","loadPDBfile","load pdb file"
+    ],
+    "code": [
+      "cmd.do('load my.pdb;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

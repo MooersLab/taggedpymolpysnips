@@ -1,0 +1,15 @@
+{
+  "display_name": "labelSS",
+  "metadata": {
+    "language": "python",
+    "description": "Label SS.",
+    "tags": [
+    "pymol","labelSS","format label","chain","secondary structure"
+    ],
+    "code": [
+      "cmd.do('alter chain A, ss='helix';')",
+      "cmd.do('label (%2),'%3';')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

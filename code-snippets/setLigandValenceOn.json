@@ -1,0 +1,14 @@
+{
+  "display_name": "setLigandValenceOn",
+  "metadata": {
+    "language": "python",
+    "description": "Display the bond valence of ligands only.",
+    "tags": [
+    "pymol","setLigandValenceOn","ligand","bond valence"
+    ],
+    "code": [
+      "cmd.do('set valence, on, resn RZS; set valence, off, not resn RZS;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

@@ -1,0 +1,14 @@
+{
+  "display_name": "printPath",
+  "metadata": {
+    "language": "python",
+    "description": "Print the path to the currently used PyMOL binary.",
+    "tags": [
+    "pymol","printPath","PyMOL","path"
+    ],
+    "code": [
+      "print(pymol.__path__)"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

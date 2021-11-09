@@ -1,0 +1,16 @@
+{
+  "display_name": "bu",
+  "metadata": {
+    "language": "python",
+    "description": "Generate the biological unit using the quat.py script.",
+    "tags": [
+    "pymol","bu","biological unit"
+    ],
+    "code": [
+      "cmd.do('# Edit the path to the file quat.py.;')",
+      "cmd.do('# You may have to download it from the PyMOL Wiki page.;')",
+      "cmd.do('run ~/Scripts/PyMOLScripts/quat.py; quat;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

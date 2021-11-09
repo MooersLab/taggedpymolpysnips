@@ -1,0 +1,14 @@
+{
+  "display_name": "selectResi",
+  "metadata": {
+    "language": "python",
+    "description": "Select residues by a range of numbers.",
+    "tags": [
+    "pymol","selectResi","selection","select residues","range of numbers"
+    ],
+    "code": [
+      "cmd.do('select ${!:se; resi  1:100;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

@@ -1,0 +1,14 @@
+{
+  "display_name": "internalGUIwidth",
+  "metadata": {
+    "language": "python",
+    "description": "Set the width of the internal gui. Set to 0 to make the internal gui vanish.",
+    "tags": [
+    "pymol","internalGUIwidth","workshop","internal GUI","width"
+    ],
+    "code": [
+      "cmd.do('set internal_gui_width=0;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

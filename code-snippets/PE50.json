@@ -1,0 +1,14 @@
+{
+  "display_name": "PE50",
+  "metadata": {
+    "language": "python",
+    "description": "Run the PE50 function from the pymolshortcuts.py file to show the pearl effect with the inner sphere scaled by 0.50 of the van der Waals surface.",
+    "tags": [
+    "pymol","PE50","pearl effect","scale inner sphere by 0.50 "
+    ],
+    "code": [
+      "cmd.do('PE50')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

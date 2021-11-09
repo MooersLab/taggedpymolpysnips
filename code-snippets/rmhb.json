@@ -1,0 +1,14 @@
+{
+  "display_name": "rmhb",
+  "metadata": {
+    "language": "python",
+    "description": "Delete all H-bonds in the selection, which is all by default.",
+    "tags": [
+    "pymol","rmhb","delete","all H-bonds"
+    ],
+    "code": [
+      "cmd.delete('hbonds')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

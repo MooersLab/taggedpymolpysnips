@@ -1,0 +1,14 @@
+{
+  "display_name": "printResiResnNameB4ResiXNoH",
+  "metadata": {
+    "language": "python",
+    "description": "Print name and b-factor for a residue or residue range (e.g. 81:120). The noH variant.",
+    "tags": [
+    "pymol","printResiResnNameB4ResiXNoH","analysis","residue name, number, atom name, B-factor, no H"
+    ],
+    "code": [
+      "Bfac_dict = { 'Bfactors3' : [] ;cmd.iterate('(resi 133 and not elem H)','Bfactors3.append((resn,resi,name, b))', space=Bfac_dict); for i,j,k,l in Bfac_dict['Bfactors3']: print('%s %s %s %.2f' % (i,j,k,l));"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

@@ -1,0 +1,14 @@
+{
+  "display_name": "rv",
+  "metadata": {
+    "language": "python",
+    "description": "Run the rv function from the pymolshortcuts.py file.",
+    "tags": [
+    "pymol","rv","roundview shortcut","shorcut roundview"
+    ],
+    "code": [
+      "cmd.do('rv')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

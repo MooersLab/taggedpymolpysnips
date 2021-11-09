@@ -1,0 +1,14 @@
+{
+  "display_name": "cmddocs",
+  "metadata": {
+    "language": "python",
+    "description": "Print in the command history window the docstrings of all of the functions in the cmd module.",
+    "tags": [
+    "pymol","cmddocs","help","docstrings","functions of cmd module"
+    ],
+    "code": [
+      "[help(i) for i in dir(cmd)];"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

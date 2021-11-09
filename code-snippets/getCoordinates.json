@@ -1,0 +1,14 @@
+{
+  "display_name": "getCoordinates",
+  "metadata": {
+    "language": "python",
+    "description": "Get coordinates.",
+    "tags": [
+    "pymol","getCoordinates","print coordinates of selection"
+    ],
+    "code": [
+      "cmd.do('print cmd.get_atom_coords('/4PCO//B/G`8/OP2');')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

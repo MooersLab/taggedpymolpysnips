@@ -1,0 +1,15 @@
+{
+  "display_name": "doubleBond",
+  "metadata": {
+    "language": "python",
+    "description": "Valence bond.",
+    "tags": [
+    "pymol","doubleBond","molecular representation","valence bond"
+    ],
+    "code": [
+      "cmd.do('set valence, 1; ')",
+      "cmd.do('set valence_mode, 1;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

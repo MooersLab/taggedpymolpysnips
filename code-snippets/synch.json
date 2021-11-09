@@ -1,0 +1,14 @@
+{
+  "display_name": "synch",
+  "metadata": {
+    "language": "python",
+    "description": "Wait until all current commands have been executed. A timeout ensures that that command ecentually returns.",
+    "tags": [
+    "pymol","synch","wait until all commands have been executed"
+    ],
+    "code": [
+      "cmd.sync(timeout=1.0,poll=0.05);"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

@@ -1,0 +1,17 @@
+{
+  "display_name": "ms",
+  "metadata": {
+    "language": "python",
+    "description": "Measure surface area of the selection with the msms_pymol.py script.",
+    "tags": [
+    "pymol","ms","measure surface area","calculate area"
+    ],
+    "code": [
+      "cmd.do('fetch 3nd3, name=3nd3, type=pdb, async=0;')",
+      "cmd.do('select temp, 3nd3 and chain A;')",
+      "cmd.do('run /Users/blaine-mooers/Scripts/PyMOLScripts/msms_pymol.py;')",
+      "cmd.do('calc_msms_area temp;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

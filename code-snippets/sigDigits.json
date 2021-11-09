@@ -1,0 +1,15 @@
+{
+  "display_name": "sigDigits",
+  "metadata": {
+    "language": "python",
+    "description": "Set number of decimals places to show in distance labels.",
+    "tags": [
+    "pymol","sigDigits","pymolrc","set decimal place","distance label"
+    ],
+    "code": [
+      "cmd.do('set label_distance_digits, 2;')",
+      "cmd.do('set label_angle_digits, 2;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

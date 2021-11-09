@@ -1,0 +1,15 @@
+{
+  "display_name": "sc221",
+  "metadata": {
+    "language": "python",
+    "description": "Display all symmetry mates in 2 x 2 x 1 array of unit cells. Uses supercell.py in $HOME/Scripts/PyMOLscripts/.",
+    "tags": [
+    "pymol","sc221","molecular representation","unit cell display","sc221"
+    ],
+    "code": [
+      "cmd.do('run $HOME/Scripts/PyMOLscripts/supercell.py;')",
+      "cmd.do('supercell 2, 2, 1, ,  orange,  supercell1, 1;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

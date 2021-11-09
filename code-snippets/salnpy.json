@@ -1,0 +1,18 @@
+{
+  "display_name": "salnpy",
+  "metadata": {
+    "language": "python",
+    "description": "Save an aln flle with a timestamp. Python version.",
+    "tags": [
+    "pymol","salnpy","save aln file","timestamp"
+    ],
+    "code": [
+      "import datetime;",
+      "from pymol import cmd;",
+      "DT =datetime.datetime.now().strftime('yr%Ymo%mday%dhr%Hmin%M');",
+      "s = str(DT);",
+      "cmd.save(stemName+s+'.aln');"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

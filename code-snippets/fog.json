@@ -1,0 +1,14 @@
+{
+  "display_name": "fog",
+  "metadata": {
+    "language": "python",
+    "description": "Blur the background atoms.",
+    "tags": [
+    "pymol","fog","molecular representation","blur background atoms"
+    ],
+    "code": [
+      "cmd.do('set fog, 0;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

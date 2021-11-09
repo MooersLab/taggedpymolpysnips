@@ -1,0 +1,17 @@
+{
+  "display_name": "cribbon",
+  "metadata": {
+    "language": "python",
+    "description": "Color ribbon H red, strand yellow, loop green.",
+    "tags": [
+    "pymol","cribbon","color","secondary structure"
+    ],
+    "code": [
+      "cmd.do('as cartoon;')",
+      "cmd.do('color red, ss H;')",
+      "cmd.do('color yellow,ss S;')",
+      "cmd.do('color green, ss L+;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

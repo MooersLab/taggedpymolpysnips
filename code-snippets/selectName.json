@@ -1,0 +1,14 @@
+{
+  "display_name": "selectName",
+  "metadata": {
+    "language": "python",
+    "description": "Select atoms by name.",
+    "tags": [
+    "pymol","selectName","selection","select atoms"," by atom name"
+    ],
+    "code": [
+      "cmd.do('select oxygen2, name O2;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

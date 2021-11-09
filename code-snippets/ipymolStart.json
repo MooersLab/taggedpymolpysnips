@@ -1,0 +1,15 @@
+{
+  "display_name": "ipymolStart",
+  "metadata": {
+    "language": "python",
+    "description": "Code to start the RPC server with ipymol. Start pymol in terminal with pymol -R; select pymol.python as the kernel in juptyer. You may have to create this kernel for the Python interpreter that is inside PyMOL.",
+    "tags": [
+    "pymol","ipymolStart","jupyter notebook","RPC server","ipymol"
+    ],
+    "code": [
+      "from ipymol import viewer as ipv;",
+      "ipv.start() # Start PyMOL RPC server;"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

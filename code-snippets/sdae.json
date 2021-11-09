@@ -1,0 +1,17 @@
+{
+  "display_name": "sdae",
+  "metadata": {
+    "language": "python",
+    "description": "Save dae flle with timestamp.",
+    "tags": [
+    "pymol","sdae","save dae file","timestamp"
+    ],
+    "code": [
+      "import datetime;",
+      "DT =datetime.datetime.now().strftime('yr%Ymo%mday%dhr%Hmin%M');",
+      "s = str(DT); ",
+      "cmd.save(stemName+s+'.dae'); "
+    ]
+  },
+  "schema_name": "code-snippet"
+}

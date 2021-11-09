@@ -1,0 +1,16 @@
+{
+  "display_name": "waterTriple",
+  "metadata": {
+    "language": "python",
+    "description": "Examples of a triple water pentagon. Zoom in on the selection. Edit by changing the residue number.",
+    "tags": [
+    "pymol","waterTriple","water pentagon","T4 lysozyme"
+    ],
+    "code": [
+      "cmd.do('fetch lw9, async=0; ')",
+      "cmd.do('zoom resi 313; ')",
+      "cmd.do('preset.technical(selection='all', mode=1);')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

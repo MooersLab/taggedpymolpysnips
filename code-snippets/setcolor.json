@@ -1,0 +1,15 @@
+{
+  "display_name": "setcolor",
+  "metadata": {
+    "language": "python",
+    "description": "Set color name to a RGB code.",
+    "tags": [
+    "pymol","setcolor","molecular representation","set color name to a RGB code"
+    ],
+    "code": [
+      "cmd.do('set_color bark, [0.1, 0.1, 0.1];')",
+      "cmd.do('color bark, protein;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

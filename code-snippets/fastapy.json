@@ -1,0 +1,15 @@
+{
+  "display_name": "fastapy",
+  "metadata": {
+    "language": "python",
+    "description": "Python version of the command to print the sequence from a PDB file in the fasta format.",
+    "tags": [
+    "pymol","fastapy","print amono acid sequence","from a PDB","fasta format."
+    ],
+    "code": [
+      "# Get the sequences of all molecular objects.;",
+      "print(cmd.get_fastastr('all'));"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

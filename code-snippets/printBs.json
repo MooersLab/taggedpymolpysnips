@@ -1,0 +1,14 @@
+{
+  "display_name": "printBs",
+  "metadata": {
+    "language": "python",
+    "description": "Print the B-factors of a residue.",
+    "tags": [
+    "pymol","printBs","analysis","print B-factors","by residue"
+    ],
+    "code": [
+      "cmd.do('remove element h; iterate resi  1:13, print(resi, name,b);')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

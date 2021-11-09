@@ -1,0 +1,14 @@
+{
+  "display_name": "helpDocs",
+  "metadata": {
+    "language": "python",
+    "description": "Return the docstring for the help submodule. This command is more concise:  help help.",
+    "tags": [
+    "pymol","helpDocs","help","return docstring"
+    ],
+    "code": [
+      "cmd.do('help(help)')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

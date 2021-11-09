@@ -1,0 +1,14 @@
+{
+  "display_name": "labelMainChain",
+  "metadata": {
+    "language": "python",
+    "description": "Label the main chain atoms with the following: resn,resi,atom name.",
+    "tags": [
+    "pymol","labelMainChain","label","label main chain"
+    ],
+    "code": [
+      "cmd.do('label name n+c+o+ca,'%s%s%s' % (resn,resi,name);')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

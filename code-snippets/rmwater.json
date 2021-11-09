@@ -1,0 +1,14 @@
+{
+  "display_name": "rmwater",
+  "metadata": {
+    "language": "python",
+    "description": "Remove waters from molecular object.",
+    "tags": [
+    "pymol","rmwater","molecular representation","remove waters"
+    ],
+    "code": [
+      "cmd.do('remove resn HOH;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

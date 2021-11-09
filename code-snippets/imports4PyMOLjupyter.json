@@ -1,0 +1,17 @@
+{
+  "display_name": "imports4PyMOLjupyter",
+  "metadata": {
+    "language": "python",
+    "description": "Imports needed for most uses of pymol in Jupyter. Combination of importPyMOL and importPythonDisplay.",
+    "tags": [
+    "pymol","imports4PyMOLjupyter","imports","Jupyter","Combination of importPyMOL and importPythonDisplay."
+    ],
+    "code": [
+      "from pymol import cmd",
+      "from IPython.display import Image",
+      "from IPython.core.display import HTML",
+      "PATH = '/Users/blaine/'"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

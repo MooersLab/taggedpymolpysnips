@@ -1,0 +1,14 @@
+{
+  "display_name": "selectChain",
+  "metadata": {
+    "language": "python",
+    "description": "Select a chain.",
+    "tags": [
+    "pymol","selectChain","selection","select a chain"
+    ],
+    "code": [
+      "cmd.do('select rna, chain B;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

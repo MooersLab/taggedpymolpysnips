@@ -1,0 +1,14 @@
+{
+  "display_name": "stateOne",
+  "metadata": {
+    "language": "python",
+    "description": "Select state 1 from a model with multiple states.",
+    "tags": [
+    "pymol","stateOne","states","save state 1"
+    ],
+    "code": [
+      "cmd.create('newobject', 'oldobject', '1', '1');"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

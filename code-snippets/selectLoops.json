@@ -1,0 +1,14 @@
+{
+  "display_name": "selectLoops",
+  "metadata": {
+    "language": "python",
+    "description": "Select atoms by beta loops.",
+    "tags": [
+    "pymol","selectLoops","selection","select atoms","by beta loops."
+    ],
+    "code": [
+      "cmd.do('select loops, ss l;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

@@ -1,0 +1,14 @@
+{
+  "display_name": "discreteCartoonColoring",
+  "metadata": {
+    "language": "python",
+    "description": "Turn on discrete colors between secondary structure elements.",
+    "tags": [
+    "pymol","discreteCartoonColoring","molecular representation","turn on discrete colors"
+    ],
+    "code": [
+      "cmd.do('set cartoon_discrete_colors, on;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

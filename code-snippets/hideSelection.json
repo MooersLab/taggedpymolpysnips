@@ -1,0 +1,14 @@
+{
+  "display_name": "hideSelection",
+  "metadata": {
+    "language": "python",
+    "description": "Turn off magenta squares on current selection.",
+    "tags": [
+    "pymol","hideSelection","selection","hide magenta blocks"
+    ],
+    "code": [
+      "cmd.do('indicate none')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

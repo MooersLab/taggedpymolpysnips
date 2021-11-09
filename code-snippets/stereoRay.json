@@ -1,0 +1,17 @@
+{
+  "display_name": "stereoRay",
+  "metadata": {
+    "language": "python",
+    "description": "Stereo ray.",
+    "tags": [
+    "pymol","stereoRay","stereo","stereo ray","save png"
+    ],
+    "code": [
+      "cmd.do('stereo; ')",
+      "cmd.do('set ray_shadow, off;')",
+      "cmd.do('ray 2400,1200;')",
+      "cmd.do('png aaa.png;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

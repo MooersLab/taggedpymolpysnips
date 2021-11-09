@@ -1,0 +1,14 @@
+{
+  "display_name": "sigdist",
+  "metadata": {
+    "language": "python",
+    "description": "Set distance labels to display 2 decimals.",
+    "tags": [
+    "pymol","sigdist","set distance labels"
+    ],
+    "code": [
+      "cmd.do('set label_distance_digits, 2;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

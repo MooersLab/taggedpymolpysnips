@@ -1,0 +1,17 @@
+{
+  "display_name": "cntfiles",
+  "metadata": {
+    "language": "python",
+    "description": "Count number of files in current directory.",
+    "tags": [
+    "pymol","cntfiles","count","current directory","count files"
+    ],
+    "code": [
+      "print('Count the files in the directory.')",
+      "print('Usage: cntfiles.')",
+      "# simple version for working with CWD",
+      "print('Number of files in current working directory: ', len([name for name in os.listdir('.') if os.path.isfile(name)]))"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

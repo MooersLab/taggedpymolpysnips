@@ -1,0 +1,18 @@
+{
+  "display_name": "dssrBlock2",
+  "metadata": {
+    "language": "python",
+    "description": "DSSR block representation with fused blocks after loading the dssr_block.py script by Thomas Holder. The x3dna-dssr executable needs to be in the PATH.",
+    "tags": [
+    "pymol","dssrBlock2","RNA","DSSR cartoon","fused blocks"
+    ],
+    "code": [
+      "cmd.do('reinitialize;')",
+      "cmd.do('run /Users/blaine/.pymol/startup/dssr_block.py;')",
+      "cmd.do('set cartoon_nucleic_acid_color, orange;')",
+      "cmd.do('fetch 1ehz, async=0;')",
+      "cmd.do('dssr_block block_file=wc')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

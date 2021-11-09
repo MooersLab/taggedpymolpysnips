@@ -1,0 +1,14 @@
+{
+  "display_name": "turnAboutAxis",
+  "metadata": {
+    "language": "python",
+    "description": "Turn about axis.",
+    "tags": [
+    "pymol","turnAboutAxis","change orientation","turn about axis"
+    ],
+    "code": [
+      "cmd.do('turn x,90;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

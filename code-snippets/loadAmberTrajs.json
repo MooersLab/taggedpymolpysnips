@@ -1,0 +1,15 @@
+{
+  "display_name": "loadAmberTrajs",
+  "metadata": {
+    "language": "python",
+    "description": "The amber trajectories have to be loaded into the same object.",
+    "tags": [
+    "pymol","loadAmberTrajs","molecular dynamics","AMBER trajectories","load"
+    ],
+    "code": [
+      "cmd.do('load file.top, protein;')",
+      "cmd.do('load file.rst, protein;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

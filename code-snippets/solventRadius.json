@@ -1,0 +1,14 @@
+{
+  "display_name": "solventRadius",
+  "metadata": {
+    "language": "python",
+    "description": "Set radius of ball used to make solvent accessible surface.",
+    "tags": [
+    "pymol","solventRadius","molecular representation","set radius of solvent sphere"
+    ],
+    "code": [
+      "cmd.do('set solvent_radius, 1.55;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

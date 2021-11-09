@@ -1,0 +1,17 @@
+{
+  "display_name": "nucleicAcidCartoon",
+  "metadata": {
+    "language": "python",
+    "description": "Settings for nucliec acid cartoon. The dark blue used for electron density maps is called `density`. The cartoon_ladder_radius should be renamed the cartoon_rung_radius. The dimensions are in Angstroms.",
+    "tags": [
+    "pymol","nucleicAcidCartoon","RNA","cartoon"
+    ],
+    "code": [
+      "cmd.do('set cartoon_ladder_radius, 0.2;')",
+      "cmd.do('set cartoon_nucleic_acid_color, red;')",
+      "cmd.do('# The cartoon ring modes range from 0 to 4.;')",
+      "cmd.do('set cartoon_ring_mode, 2;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

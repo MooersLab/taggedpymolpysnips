@@ -1,0 +1,14 @@
+{
+  "display_name": "selectElement",
+  "metadata": {
+    "language": "python",
+    "description": "Select atoms by element.",
+    "tags": [
+    "pymol","selectElement","selection","select atoms"," by element"
+    ],
+    "code": [
+      "cmd.do('select oxygen, elem O;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

@@ -1,0 +1,14 @@
+{
+  "display_name": "labelWatersW",
+  "metadata": {
+    "language": "python",
+    "description": "Label waters with W and their reisude number.",
+    "tags": [
+    "pymol","labelWatersW","label","waters","W"
+    ],
+    "code": [
+      "cmd.do('label resn HOH ,'W%s' % (resi);')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

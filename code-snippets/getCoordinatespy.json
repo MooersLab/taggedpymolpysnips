@@ -1,0 +1,14 @@
+{
+  "display_name": "getCoordinatespy",
+  "metadata": {
+    "language": "python",
+    "description": "Python version of getCoordinates snippets. Note that the python2 print statement stills works  in pml scripts.",
+    "tags": [
+    "pymol","getCoordinatespy","get coordinates"
+    ],
+    "code": [
+      "print(cmd.get_atom_coords('/4PCO//B/G`8/OP2'));"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

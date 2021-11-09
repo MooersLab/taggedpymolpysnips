@@ -1,0 +1,15 @@
+{
+  "display_name": "sc133",
+  "metadata": {
+    "language": "python",
+    "description": "Display all symmetry mates in 1 x 3 x 3 array of unit cell. Uses supercell.py in $HOME/Scripts/PyMOLscripts/.",
+    "tags": [
+    "pymol","sc133","molecular representation","unit cell display","sc133"
+    ],
+    "code": [
+      "cmd.do('run $HOME/Scripts/PyMOLscripts/supercell.py;')",
+      "cmd.do('supercell 1, 3, 3, , orange,  supercell1, 1;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

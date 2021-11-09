@@ -1,0 +1,14 @@
+{
+  "display_name": "fetchPath",
+  "metadata": {
+    "language": "python",
+    "description": "Set path for location to save fetched pdb files.",
+    "tags": [
+    "pymol","fetchPath","pymolrc","set location","save fetched pdb files"
+    ],
+    "code": [
+      "cmd.do('set fetch_path, /Users/blaine/pdbFiles;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

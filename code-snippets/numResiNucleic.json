@@ -1,0 +1,14 @@
+{
+  "display_name": "numResiNucleic",
+  "metadata": {
+    "language": "python",
+    "description": "Print the number of residues in a nulceic acid (all chains).",
+    "tags": [
+    "pymol","numResiNucleic","count","number of residues","in a nucleic acid"
+    ],
+    "code": [
+      "sel = 'polymer.nucleic'; print(len(set([(i.resi, i.resn) for i in cmd.get_model(sel).atom])));"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

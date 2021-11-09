@@ -1,0 +1,14 @@
+{
+  "display_name": "numResiProteinChainA",
+  "metadata": {
+    "language": "python",
+    "description": "Print the number of residues in chain A of a protein.",
+    "tags": [
+    "pymol","numResiProteinChainA","count","number of residues","in Chain A of a protein"
+    ],
+    "code": [
+      "sel = 'chain A and polymer.protein'; print(len(set([(i.chain, i.resi, i.resn) for i in cmd.get_model(sel).atom])));"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

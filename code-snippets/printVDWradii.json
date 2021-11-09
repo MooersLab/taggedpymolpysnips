@@ -1,0 +1,14 @@
+{
+  "display_name": "printVDWradii",
+  "metadata": {
+    "language": "python",
+    "description": "Print the van der Waals radii of the atoms in of a residue.",
+    "tags": [
+    "pymol","printVDWradii","van der Waals radii","print by atoms in residue"
+    ],
+    "code": [
+      "cmd.do('iterate (resi 101), print(name + ' %.2f' % vdw);')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

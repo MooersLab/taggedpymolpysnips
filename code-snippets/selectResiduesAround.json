@@ -1,0 +1,14 @@
+{
+  "display_name": "selectResiduesAround",
+  "metadata": {
+    "language": "python",
+    "description": "Select residues within a radius around a ligand.",
+    "tags": [
+    "pymol","selectResiduesAround","selection","select residues","around a ligand"
+    ],
+    "code": [
+      "cmd.do('select nearby, br. resn drug around 5;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

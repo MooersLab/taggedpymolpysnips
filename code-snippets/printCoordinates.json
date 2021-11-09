@@ -1,0 +1,16 @@
+{
+  "display_name": "printCoordinates",
+  "metadata": {
+    "language": "python",
+    "description": "Print the coordinates of the atoms in a residue.",
+    "tags": [
+    "pymol","printCoordinates","print coordinates","by atoms in residue"
+    ],
+    "code": [
+      "stored.coords = []; ",
+      "iterate_state 1, (resi 101), stored.coords.append([x,y,z]); ",
+      "[print(i) for i in stored.coords];"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

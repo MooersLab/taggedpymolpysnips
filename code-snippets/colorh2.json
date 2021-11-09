@@ -1,0 +1,14 @@
+{
+  "display_name": "colorh2",
+  "metadata": {
+    "language": "python",
+    "description": "Run the colorh2 function from the pymolshortcuts.py file to color protein molecules according to the Eisenberg hydrophobicity scale, scheme 2.",
+    "tags": [
+    "pymol","colorh2","color","color by biophysical propertities","Eisenberg colorscale 2"
+    ],
+    "code": [
+      "cmd.do('colorh2')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

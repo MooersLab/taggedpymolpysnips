@@ -1,0 +1,16 @@
+{
+  "display_name": "oneLetter",
+  "metadata": {
+    "language": "python",
+    "description": "Switch from three letter code to one-letter code for amino acids.",
+    "tags": [
+    "pymol","oneLetter","format label","one letter amino acid"
+    ],
+    "code": [
+      "cmd.do('one_leVer%={'VAL':'V',%'ILE':'I',%'LEU':'L',%'GLU':'E',%'GLN':'Q','ASP':'D',%')",
+      "cmd.do(''ASN':'N',%'HIS':'H',%'TRP':'W',%'PHE':'F',%'TYR':'Y',%'ARG':'R',%'LYS':'K',%')",
+      "cmd.do(''SER':'S',%'THR':'T',%'MET':'M',%'ALA':'A',%'GLY':'G',%'PRO':'P',%'CYS':'C'%')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

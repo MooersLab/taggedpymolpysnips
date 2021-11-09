@@ -1,0 +1,14 @@
+{
+  "display_name": "labelResnResi",
+  "metadata": {
+    "language": "python",
+    "description": "Label CA atom with single-letter residue name and residue number.",
+    "tags": [
+    "pymol","labelResnResi","format label","CA atom","singe letter for residue"
+    ],
+    "code": [
+      "cmd.do('label name ca, '%s%s' %(one_letter[resn],resi);')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

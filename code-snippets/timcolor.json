@@ -1,0 +1,14 @@
+{
+  "display_name": "timcolor",
+  "metadata": {
+    "language": "python",
+    "description": "Run the timcolor function from the pymolshortcuts.py file to color atoms accordings to Tim Mather's biophysical coloring scheme for proteins.",
+    "tags": [
+    "pymol","timcolor","color","color by biophysical propertities","timcolor"
+    ],
+    "code": [
+      "cmd.do('timcolor')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

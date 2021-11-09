@@ -1,0 +1,17 @@
+{
+  "display_name": "importPyMOLandShortcuts",
+  "metadata": {
+    "language": "python",
+    "description": "Imports needed for most uses of pymol in Jupyter. Combination of importPyMOL and importPythonDisplay.",
+    "tags": [
+    "pymol","importPyMOLandShortcuts","import","pymol","shortcuts"
+    ],
+    "code": [
+      "from pymol import cmd",
+      "from IPython.display import Image",
+      "PATH = '/Users/blaine/'",
+      "cmd.do('run /Users/blaine/Scripts/PyMOLScripts/pymolshortcuts.py')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

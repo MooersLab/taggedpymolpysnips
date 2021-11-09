@@ -1,0 +1,14 @@
+{
+  "display_name": "fetchCIF",
+  "metadata": {
+    "language": "python",
+    "description": "Fetch the atomic coordinates as a cif file from the PDB.",
+    "tags": [
+    "pymol","fetchCIF","atomic coordinates","fetch as cif"
+    ],
+    "code": [
+      "cmd.do('fetch 3nd4, type=cif, async=0;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

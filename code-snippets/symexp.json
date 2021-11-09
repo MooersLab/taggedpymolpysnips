@@ -1,0 +1,14 @@
+{
+  "display_name": "symexp",
+  "metadata": {
+    "language": "python",
+    "description": "The code expands the asymmetric unit. It like the generate symmetry mates command but it provides more control over the prefix name of the symmetry mates and the addition of unique segment identifiers for each symmetry mate. The usage: symexp prefix, object, (selection), cutoff, segidFlag. The cutoff is in Angstroms. The segidFlag set to 1 will add unique segids. For related functions, see SC***.",
+    "tags": [
+    "pymol","symexp","symmetry","expand to fill unit cell"
+    ],
+    "code": [
+      "cmd.do('symexp symm, 3fa0, (3fa0), 20,1;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

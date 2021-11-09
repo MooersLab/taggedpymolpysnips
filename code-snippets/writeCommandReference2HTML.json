@@ -1,0 +1,14 @@
+{
+  "display_name": "writeCommandReference2HTML",
+  "metadata": {
+    "language": "python",
+    "description": "Write the command reference to html file in the present working directory. ",
+    "tags": [
+    "pymol","writeCommandReference2HTML","help","print pymol commands"
+    ],
+    "code": [
+      "cmd.write_html_ref('pymol-command-ref.html');"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

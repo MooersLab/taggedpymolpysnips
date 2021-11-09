@@ -1,0 +1,14 @@
+{
+  "display_name": "setpath",
+  "metadata": {
+    "language": "python",
+    "description": "Set additional path for PyMOL to search on startup.",
+    "tags": [
+    "pymol","setpath","pymolrc","path for PyMOL"
+    ],
+    "code": [
+      "os.environ['PATH'] += os.pathsep + '~/ATSAS-3.0.3-1/bin';"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

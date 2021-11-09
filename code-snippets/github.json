@@ -1,0 +1,14 @@
+{
+  "display_name": "github",
+  "metadata": {
+    "language": "python",
+    "description": "Print url of README.md file of the pymolsnips repository.",
+    "tags": [
+    "pymol","github","help","pymosnips github url"
+    ],
+    "code": [
+      "cmd.do('https://github.com/MooersLab/pymolsnips/blob/master/README.md')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

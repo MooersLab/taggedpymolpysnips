@@ -1,0 +1,14 @@
+{
+  "display_name": "lspymolrcpy",
+  "metadata": {
+    "language": "python",
+    "description": "Print list of active pymolrc files.",
+    "tags": [
+    "pymol","lspymolrcpy","pymolrc","print list of active pymolrc files"
+    ],
+    "code": [
+      "print(invocation.options.deferred);"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

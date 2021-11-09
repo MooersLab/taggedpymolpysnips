@@ -1,0 +1,14 @@
+{
+  "display_name": "importPyMOLcmd",
+  "metadata": {
+    "language": "python",
+    "description": "Import the cmd class from the pymol api.",
+    "tags": [
+    "pymol","importPyMOLcmd","import the cmd class","pymol api."
+    ],
+    "code": [
+      "from pymol import cmd"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

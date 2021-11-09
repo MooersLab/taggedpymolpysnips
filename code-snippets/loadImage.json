@@ -1,0 +1,14 @@
+{
+  "display_name": "loadImage",
+  "metadata": {
+    "language": "python",
+    "description": "Load image.",
+    "tags": [
+    "pymol","loadImage","jupyter","import image"
+    ],
+    "code": [
+      "Image(filename = PATH +'5da6orient.png', width=600, height=1000, unconfined=True);"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

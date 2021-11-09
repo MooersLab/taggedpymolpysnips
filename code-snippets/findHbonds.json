@@ -1,0 +1,14 @@
+{
+  "display_name": "findHbonds",
+  "metadata": {
+    "language": "python",
+    "description": "Find H-bonds around a residue.",
+    "tags": [
+    "pymol","findHbonds","analysis","find H-bond around a residue"
+    ],
+    "code": [
+      "cmd.do('remove element h; distance hbonds, all, all, 3.2, mode=2;')"
+    ]
+  },
+  "schema_name": "code-snippet"
+}
