@@ -177,7 +177,29 @@ No modification of **PyMOL** is required.
 
 <a id="usage"><h2>Usage</h2></a>
 
-The animation at the top of the page conveys the essential knowledge for usage. 
+The planned animation at the top of the page will convey the essential knowledge for usage. 
+
+In the meantime, the static images will have to do.
+First, select the appropriate kernel from the list of icons and open a new notebook.
+Select a cell.
+Second, select a snippet form the menu. For example, selection of the `ao` snippet leads to the display of its content.
+
+<p align="center"><img src="images/elyra-ao.png"></p>
+
+Select the second icon form the left in the upper right to insert the snippet into the selected cell of the notebook.
+
+To add a new snippet, click on the `+` in the upper right of the Code Snippets icon.
+This will open new GUI (see below) for creating a snippet.
+
+- The `Name` should be a one word or compound word.
+- The `Description` describes in one or more sentences what the snippet does. 
+- The Tags are used to narrow the listing of snippets in the menu.
+- The Source is Python.
+- The Code can be entered by selecting code in a notebook cell or copying and pasting from a script file.
+- Save & Close.
+
+<p align="center"><img src="images/elyra-new-snippet.png"></p>
+
 
 [Return to Table of Contents](#table-of-contents)
 
