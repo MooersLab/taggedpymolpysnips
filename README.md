@@ -206,9 +206,7 @@ This will open new GUI (see below) for creating a snippet.
 
 <a id="testing"><h2>Testing</h2></a>
 
-Try the **ao** snippet in Python code cell.
-Run the code cell by clicking on the green button.
-You should get a result similar to the one shown in the animation above.
+Run the code cells the ao.ipynb notebook to test that the connection to PyMOL's API is working.
 
 [Return to Table of Contents](#table-of-contents)
 
