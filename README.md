@@ -199,7 +199,8 @@ This will open new GUI (see below) for creating a snippet.
 
 <a id="testing"><h2>Testing</h2></a>
 
-Run the code cells the ao.ipynb notebook to test that the connection to PyMOL's API is working.
+Run the code cells the `ipynbs/ao.ipynb` notebook to test that the connection to PyMOL's API is working. The output should be the same as in `ipynbs/7JU5setview.png`.
+
 
 [Return to Table of Contents](#table-of-contents)
 
