@@ -117,16 +117,19 @@ If you are using an ancient version of **PyMOL** that relies on Python2, you can
 This often merely involves replacing print functions in Python3 with print statements in Python2.
 Note that multiple versions of **PyMOL** can operate side-by-side on a computer, so you do not have to delete the old version of **PyMOL**.
 
-Note that PyMOL is available from macports for python 3.7 to 3.9.
+Note that PyMOL 2.5.0 is available from macports for python 3.6 to 3.9.
 After installing pymol for python 3.9, you can make a Python kernel for this Python with the following command:
 
 ```bash
 /opt/local/bin/python3.9 -m ipykernel install --user --name mp39 --display-name "Macports Python 3.9"
 ```
 
+This kernel will show up in the pulldown for kernels as `Macports Python 3.9`.
+It is stored on the Mac in `~/Library/Jupyter/kernels/mp39`.
+
 The naming convention for the jupyter packages that is used by macports is confusing.                                       
-Instead, I recommend creating instead a conda environment to install Jupyter Lab and the Juptyer Lab extensions. 
-After launching Juptyer Lab, you can select the `mp39` kernel to access the pymol API through macports.
+Instead, I recommend creating instead a conda environment to install Jupyter Lab from Anaconda and then the Juptyer Lab extensions. 
+After launching Juptyer Lab, you can select the `Macports Python 3.9` kernel to access the pymol API through macports.
 This works despite the claim the your conda env is isloted from the rest of your Python ecosystem.
 
 
