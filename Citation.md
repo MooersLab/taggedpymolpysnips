@@ -4,6 +4,7 @@ We used the elyrapymolpysnips library to support using PyMOL in JupyterLab with 
 
 Cite this conference paper:
 
+```bibtex
 @inproceedings{Mooers2021ModernizingComputingByStructuralBiologists,
   year   = {2021},
   author = {Mooers, Blaine H. M.},
@@ -12,3 +13,4 @@ Cite this conference paper:
   organization = {SciPy.org},
   url = {http://conference.scipy.org/proceedings/scipy2021/pdfs/blaine_mooers.pdf}
 }
+```
