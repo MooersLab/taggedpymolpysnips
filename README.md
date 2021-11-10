@@ -121,12 +121,17 @@ A conda env with Python 3.8 or later as the default Python interpreter is requir
 
 <a id="technology-stack"><h2>Technology Stack</h2></a>
 
-| Technology                                                                                 | Version  | Description                                                                                        |
-|--------------------------------------------------------------------------------------------|----------|----------------------------------------------------------------------------------------------------|
-| [PyMOL](https://pymol.org/2/)                                                              | 2.5.1    | Molecular graphics program                                                                         |
-| Python from Anaconda                                                                       | 3.6-3.9  | Programming language                                                                               |
-| conda from Anaconda                                                                        | 4.10.1   | Program used to create Python environments.                                                        |
-| git                                                                                        | 2.25.1   | Eases the downloading and updating of the libraries.                                               |
+| Technology       | Version  | Description       |
+|------------------------------------------|----------|----------------------------|
+| [PyMOL](https://pymol.org/2/)  | 2.5.1    | Molecular graphics program    |
+| Python from Anaconda    | 3.8  | Programming language               |
+| conda from Anaconda       | 4.10.1   | Program used to create Python environments.     |
+| git     | 2.33   | Eases the downloading and updating of the libraries.    |
+| Node.js | >12.2        | Needed for Jupyter extensions. Often the Node.js from Anaconda is out-dated. Install from Node.js website. |
+| Jupyter |        | needed to created kernel mapped to PyMOL's Python interpreter |
+| JupyterLab  | >3.0 |  Required for Elyra snippets |
+| elyra-code-snippet-extension | > 3.3 | suports tagged snippets  |
+
 
 
 Some of the snippets are limited to Python3 code.
@@ -136,21 +141,28 @@ Note that multiple versions of **PyMOL** can operate side-by-side on a computer,
 
 
 <a id="installation"><h2>Installation of the snippet library</h2></a>
+Install the software stack.
+Make the jupyter kernel mapped to the PyMOL Python interpreter.
+Install the elyra-code-snippet-extension.
+Now download the 
 
 ```bash
-# If the following directory is missing: ~/.config/rstudio/snippets
+# If the following directory is missing: ~/Library/Jupyter/metadata
 mkdir ~/Library/Jupyter/metadata
 cd ~/Library/Jupyter/metadata
-git clone https://github.com/MooersLab/elyrapymolpysnips.git snippets
+git clone https://github.com/MooersLab/taggedpymolpysnips.git 
+cd taggedpymolpysnips
+mv code-snippets ../.
+cd ..
+rm -rf taggedpymolsnips
 ```
 
-When you open **JupyterLab**, you will find that the new file python.snippets from rstudiopymolpysnips has replaced the default Python snippets.
-These are found under *Preferences/Code/Edit Snippets/Python* (see animation below).
-You can edit the snippets and add new ones.
-The format is self-explanatory.
+When you open **JupyterLab**, you will find a `</>` icon in the left column.
+Click on it to display a list of available snippets.
+The snippets are clustered by language.
+The PyMOL snippets are clustered as Python.
 
-
-<p align="center"><img src="gifs/accessingSnippets.gif"></p>
+<p align="center"><img src="images/elyrasnippeticon.png"></p>
 
 
 [Return to Table of Contents](#table-of-contents)
