@@ -9,6 +9,7 @@ The text below while updated shortly.
 
 <a id="table-of-contents"><h2>Table of Contents</h2></a>
 
+* [Related repos](#related)
 * [Motivation](#motivation)
 * [New to scripting in PyMOL](#new)
 * [Tech Stack](#technology-stack)
@@ -22,6 +23,20 @@ The text below while updated shortly.
 * [License](#license)
 * [Contact Information](#contact-information)
 * [How to cite](#citation)
+
+<a id="related"><h2>Related repos</h2></a>
+
+- [easypymol](https://github.com/MooersLab/EasyPyMOL/edit/master/README.md)
+- [pymolshortcuts](https://github.com/MooersLab/pymolshortcuts)
+- [orgpymolpysnips](https://github.com/MooersLab/orgpymolpysnips)
+- [rstudiopymolpysnips](https://github.com/MooersLab/rstudiopymolpysnips)
+- [taggedpymolpysnips](https://github.com/MooersLab/taggedpymolpysnips)
+- [jupyterlabpymolpysnips](https://github.com/MooersLab/jupyterlabpymolpysnips)
+- [colabOpenSourcePyMOLpySnips](https://github.com/MooersLab/colabOpenSourcePyMOLpySnips)
+- [colabPyMOLpySnips](https://github.com/MooersLab/colabPyMOLpySnips)
+- [PyMOLwallhangings](https://github.com/MooersLab/PyMOLwallhangings)
+
+[Return to Table of Contents](#table-of-contents)
 
 
 <a id="motivation"><h2>Motivations for this project</h2></a>
@@ -259,19 +274,5 @@ Reach me via the Issue tab above or via e-mail: `blaine-mooers at ouhsc.edu`.
 
 If you use this library to make figures for publication, please see the *Citation.md* file above.
 
-
-[Return to Table of Contents](#table-of-contents)
-
-## Related repos
-
-- [easypymol](https://github.com/MooersLab/EasyPyMOL/edit/master/README.md)
-- [pymolshortcuts](https://github.com/MooersLab/pymolshortcuts)
-- [orgpymolpysnips](https://github.com/MooersLab/orgpymolpysnips)
-- [rstudiopymolpysnips](https://github.com/MooersLab/rstudiopymolpysnips)
-- [taggedpymolpysnips](https://github.com/MooersLab/taggedpymolpysnips)
-- [jupyterlabpymolpysnips](https://github.com/MooersLab/jupyterlabpymolpysnips)
-- [colabOpenSourcePyMOLpySnips](https://github.com/MooersLab/colabOpenSourcePyMOLpySnips)
-- [colabPyMOLpySnips](https://github.com/MooersLab/colabPyMOLpySnips)
-- [PyMOLwallhangings](https://github.com/MooersLab/PyMOLwallhangings)
 
 [Return to Table of Contents](#table-of-contents)
