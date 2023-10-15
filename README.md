@@ -5,8 +5,6 @@
 
 For a list of the snippets and their descriptions, also go to the [GitHub Page](https://mooerslab.github.io/pymolsnips/).
 
-The text below while updated shortly.
-
 <a id="table-of-contents"><h2>Table of Contents</h2></a>
 
 * [Related repos](#related)
@@ -26,11 +24,24 @@ The text below while updated shortly.
 
 <a id="related"><h2>Related repos</h2></a>
 
+### PyMOL in Jupyter
+- [jupyterlabpymolpysnips](https://github.com/MooersLab/jupyterlabpymolpysnips) PyMOL Python snippets for use in JupyterLab with the jupyterlab-snippets extension.
+- [jupyternbclassicpymolpysnipsplus](https://github.com/MooersLab/jupyternbclassicpymolpysnipsplus)
+- [taggedpymolpysnips](https://github.com/MooersLab/taggedpymolpysnips) 
+- [taggedpymolpysnipspymolpysnipsplus](https://github.com/MooersLab/taggedpymolpysnipspymolpysnipsplus)
+- [jupyter-vsc-pymolpysnips](https://github.com/MooersLab/jupytervsc-pymolpysnips)
+- [jupyter-st3-pymolpysnips](https://github.com/MooersLab/jupyter-st3-pymolpysnips)
+- [jupyter-emacs-pymolpysnips](https://github.com/MooersLab/jupyter-emacs-pymolpysnips)
+- [jupyter-ultisnips-pymolpysnips](https://github.com/MooersLab/jupyter-ultisnips-pymolpysnips)
+- [jupyter-snipmate-pymolpysnips](https://github.com/MooersLab/jupyter-snipmate-pymolpysnips)
+- [jupyter-neosnippets-pymolpysnips](https://github.com/MooersLab/jupyter-neosnippets-pymolpysnips)
+- [jupyter-atom-pymolpysnips](https://github.com/MooersLab/jupyter-atom-pymolpysnips)
+
+### PyMOL on other coding platforms  
 - [easypymol](https://github.com/MooersLab/EasyPyMOL/edit/master/README.md)
 - [pymolshortcuts](https://github.com/MooersLab/pymolshortcuts)
 - [orgpymolpysnips](https://github.com/MooersLab/orgpymolpysnips)
 - [rstudiopymolpysnips](https://github.com/MooersLab/rstudiopymolpysnips)
-- [taggedpymolpysnips](https://github.com/MooersLab/taggedpymolpysnips)
 - [jupyterlabpymolpysnips](https://github.com/MooersLab/jupyterlabpymolpysnips)
 - [colabOpenSourcePyMOLpySnips](https://github.com/MooersLab/colabOpenSourcePyMOLpySnips)
 - [colabPyMOLpySnips](https://github.com/MooersLab/colabPyMOLpySnips)
@@ -277,18 +288,3 @@ If you use this library to make figures for publication, please see the *Citatio
 
 [Return to Table of Contents](#table-of-contents)
 
-<a id="citation"><h2>Related repos</h2></a>
-
-- [jupyterlabpymolpysnips](https://github.com/MooersLab/jupyterlabpymolpysnips) PyMOL Python snippets for use in JupyterLab with the jupyterlab-snippets extension.
-- [jupyternbclassicpymolpysnipsplus](https://github.com/MooersLab/jupyternbclassicpymolpysnipsplus)
-- [taggedpymolpysnips](https://github.com/MooersLab/taggedpymolpysnips) 
-- [taggedpymolpysnipspymolpysnipsplus](https://github.com/MooersLab/taggedpymolpysnipspymolpysnipsplus)
-- [jupyter-vsc-pymolpysnips](https://github.com/MooersLab/jupytervsc-pymolpysnips)
-- [jupyter-st3-pymolpysnips](https://github.com/MooersLab/jupyter-st3-pymolpysnips)
-- [jupyter-emacs-pymolpysnips](https://github.com/MooersLab/jupyter-emacs-pymolpysnips)
-- [jupyter-ultisnips-pymolpysnips](https://github.com/MooersLab/jupyter-ultisnips-pymolpysnips)
-- [jupyter-snipmate-pymolpysnips](https://github.com/MooersLab/jupyter-snipmate-pymolpysnips)
-- [jupyter-neosnippets-pymolpysnips](https://github.com/MooersLab/jupyter-neosnippets-pymolpysnips)
-- [jupyter-atom-pymolpysnips](https://github.com/MooersLab/jupyter-atom-pymolpysnips)
-
-[Return to Table of Contents](#table-of-contents)
