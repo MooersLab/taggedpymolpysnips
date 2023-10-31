@@ -1,4 +1,4 @@
-# taggedpymolpysnips: Tagged templates for running PyMOL from JupyterLab
+# taggedpymolpysnips: Tagged code templates for running PyMOL from JupyterLab
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![Version](https://img.shields.io/static/v1?label=taggedpymolpysnips&message=0.1&color=brightcolor)
